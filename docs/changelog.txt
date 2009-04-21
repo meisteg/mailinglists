@@ -1,0 +1,197 @@
+############################################################################################
+# ChangeLog for Mailing Lists
+# $Id: changelog.txt,v 1.57 2008/09/27 00:43:24 blindman1344 Exp $
+#
+# Author: Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+############################################################################################
+
+
+*mailinglists-1.2.1 (26 Sep 2008)
+
+    - Added more error checks when sending emails.  Will help when debugging issues.
+    - BUG #2109418: Fixed issue sending emails with an apostrophe in "from" or "subject".
+
+*mailinglists-1.2.0 (23 Aug 2008)
+
+    - RFE #1274746: Purge subscribers who haven't activated in over 2 days.
+    - File Cabinet added to email forms for HTML messages.
+    - Emails are now templated (email/send_html.tpl and email/send_text.tpl).
+    - Added workaround for issue where emails could be sent with relative URLs.
+    - Now call cacheQueries on all DBPagers to retain pager settings.
+    - Support Smart Tags in HTML emails.
+
+*mailinglists-1.1.0 (21 Jun 2008)
+
+    - RFE #1274782: Purge deleted site users (Now requiring phpWebSite 1.5.2 or later)
+
+*mailinglists-1.0.0 (04 Jan 2008)
+
+    - Complete rewrite to support phpWebSite 1.4.0 and later
+    - RFE #1838405: Throttle mail sending
+    - RFE #1293041: Archive link from admin page
+    - RFE #1274788: Support bulk subscribe/unsubscribe in Subscriber Admin
+
+*mailinglists-0.5.7 (02 Jan 2008)
+
+    - BUG #1406165: Patch for some errors in the admin forms
+    - BUG #1731124: Another List ID > 9 fix
+    - Added Italian languange file (Thanks Gianluigi Coppelletti!)
+
+*mailinglists-0.5.6 (11 Sep 2005)
+
+    - BUG #1283077: Subscriber admin paging now works for lists with ID > 9
+    - Changed from double quotes to single quotes for static strings
+    - Fixed several notices
+    - BUG #1285088: If list is hidden, visitor must be logged in and a subscriber to
+      that list to view its archives.
+
+*mailinglists-0.5.5 (02 Sep 2005)
+
+    - Side box now only appears if there are lists to subscribe to (Thanks Shaun!)
+    - Changed to an improved warning image (Thanks Shaun!)
+    - Added GPL headers
+    - Updated docs due to project merge with phpWebSite-comm
+
+*mailinglists-0.5.2 (22 Nov 2004)
+
+    - RFE #1036792: Email can now be sent to hidden lists
+    - BUG #1038396: Lists with ID > 9 now handled properly
+    - Now ready for phpWebSite 0.10.0
+
+*mailinglists-0.5.1 (14 Jun 2004)
+
+    - BUG #935376: Add All Users no longer adds unapproved users.  (Thanks Shaun!)
+    - BUG #930149: Fixed the relative link problem.  (Thanks Eloi!)
+    - BUG #938877: One anonymous user can now subscribe to multiple lists.  (Thanks Tevfik!)
+    - BUG #953460 and BUG #957573: Email links in HTML emails no longer "mungled".
+    - BUG #940148: If the HTML box or the Plain Text box is left blank on the Send Email
+                   form, the info is copied to the other field before sending.
+    - RFE #940154: HTML email preview feature added.
+    - Modified how announcements were imported to make compatible with 0.9.3-3 and still
+      compatible with 0.9.3-1 and 0.9.3-2.
+    - The archived emails can now be viewed when not logged in, but user has to be linked
+      to the page manually.
+
+*mailinglists-0.5.0 (31 Mar 2004)
+
+    - RFE #764829: Messages can now be imported from certain modules.
+    - BUG #913137: HTML tags should no longer show in HTML emails. This was a problem for
+                   only certain servers.
+    - BUG #915869: Email subjects are now required.
+    - BUG #918753: Extra whitespace in runtime.php removed.
+    - Completed improved Subscriber Admin using the advice of Lloyd and Bobby.
+    - Made several interface improvements recommended by Lloyd.
+
+*mailinglists-0.4.1 (4 Mar 2004)
+
+    - RFE #891568: Subject prefixes are now possible.
+    - BUG #909827: Upgrade script now supports table prefixes again (broke support when
+                   fixing defines)
+    - Subscriber Admin bug fixes.
+    - Anonymous email box width on homepage shortened - it was too long for themes with
+      narrow left columns.
+    - Improved check to see if all emails were sent.
+
+*mailinglists-0.4.0 (26 Feb 2004)
+
+    - Fixed an incompatibility with 0.9.3-1
+
+*mailinglists-0.4.0-rc2 (19 Feb 2004)
+
+    - Subscriber Admin now allows an Admin to add "anonymous" users to a list.  When an admin
+      adds a user via the Subscriber Admin, a confirmation email is NOT sent out.  Make sure
+      the email address gets typed right!  (Thanks Gene Stapp for the suggestion.)
+
+*mailinglists-0.4.0-rc1 (13 Feb 2004)
+
+    - RFE #812617: Admins can now subscribe/unsubscribe users via the Subscriber Admin.
+    - RFE #791990: Help module has been utilized.
+    - RFE #764366: Admins can now allow non-members to subscribe to mailing lists!
+    - Fixed defines in update.php
+    - Now allow registered subscribed users to send messages to lists.
+
+*mailinglists-0.3.3 (26 Nov 2003)
+
+    - Restored compatibility with phpWebSite 0.9.3-1 using Don's supplemental files.
+    - Finished 0.9.3-2 updates.
+    - Fixed minor bug with saved emails.
+    - Updated docs
+    - Added version check to prevent users from using module on older versions of phpWebSite.
+
+*mailinglists-0.3.3-rc1 (9 Nov 2003)
+
+    - Now compatible with phpWebSite 0.9.3-2
+
+*mailinglists-0.3.2 (2 Nov 2003)
+
+    - RFE #791989: Footers can now have an unsubscribe link.  To use, just place "[URL]" where
+                   the link is needed (without quotes).
+    - Admin can now add all the website users to a mailing list.  If the list is double opt-in,
+      the user still has to click the link in the email.  The script does check current
+      subscribers so no duplicate users will be added.
+
+*mailinglists-0.3.1 (12 Sep 2003)
+
+    - BUG #803042: Script now properly checks to see if the emails were sent ok.  Thanks to
+                   Ivan Havlicek for discovering this issue.
+    - BUG #805182: The subscription menu now properly displays the subscribed lists properly.
+                   The warning image and the archive link could appear on lists when not
+                   supposed to if a certain condition was met.
+    - faq.txt added.
+    - If a subscription hasn't been activated, no longer send that user an email when they
+      unsubscribe.  This will prevent two emails from being sent to the wrong email address.
+
+*mailinglists-0.3.0 (4 Sep 2003)
+
+    - BUG #776365: index.php now reroutes to website if called directly to prevent an error.
+    - BUG #776376: Fixed the xhtml compliance errors.
+    - RFE #776360: Website output now templated.
+    - RFE #767476: Module rights support has been added.
+    - RFE #764826: HTML support added!!!
+    - RFE #764817: Admins can now define a "From" name and email for each list.
+    - Module now keeps track of the date that the last email was sent out and who sent it
+      on a per list basis.
+    - Archives now stores who sent each email.
+    - Listing of the Mailing lists now displays date created, last sent info, list ID and status.
+      No longer displays the description.  (Admins probably already know what the list is about.)
+    - Admin interface slightly changed again.  Hopefully I finally got it right.
+    - Slashes now removed from subject of the email before it's sent out.
+    - Language support now added.
+
+*mailinglists-0.2.2 (14 Jul 2003)
+
+    - BUG #769972: The Double Opt-in confirmation emails contained the hub
+                   URL and not the branch URL on branch sites.  Fixed.
+    - BUG #769975: The module now checks for malformed email addresses before
+                   displaying the subscription menu.  If address is malformed,
+                   user is linked to the page to update the address.
+
+*mailinglists-0.2.1 (11 Jul 2003)
+
+    - BUG #769838: Single Opt-in did not properly store the activeKey as well
+                   as the dateSubscribed.  Fixed.
+
+*mailinglists-0.2.0 (11 Jul 2003)
+
+    - RFE #764365: Email Archives are now kept and can be set on a per list
+                   basis by an admin.
+    - RFE #764824: Double Opt-in support now supported.
+    - RFE #764831: Subscribe/Unsubscribe messages can now be set for each
+                   mailing list.  This feature was made optional.
+    - RFE #764833: Email footer support has been added.  It can be toggled in
+                   the new settings menu.
+    - Added a Settings Menu for the module.
+    - Removed all popboxes to follow trend by phpWebSite Dev Team.
+    - Added "Menu messages" to confirm opperations.
+    - Minor security bug removed.
+
+*mailinglists-0.1.1 (7 Jul 2003)
+
+    - BUG #767404: Fixed Admin so 'Send Email' link wouldn't show when
+                   mailing list is turned off.
+    - BUG #767450: Added 'nowrap' to several places in the administration
+                   to avoid some uglyness at low resolutions.
+
+*mailinglists-0.1.0 (12 Jun 2003)
+
+    - First released version

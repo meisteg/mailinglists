@@ -1,0 +1,497 @@
+# Mailing Lists - phpWebSite Module
+#
+# See docs/credits.txt for copyright information
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-16 21:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Action"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add all users"
+msgstr ""
+
+msgid "Allow anonymous users to subscribe to lists"
+msgstr ""
+
+msgid "Allow registered website users send messages"
+msgstr ""
+
+msgid "Approval"
+msgstr ""
+
+#, php-format
+msgid "Approval (%s)"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+msgid "Are you sure you want to permanently delete this mailing list?"
+msgstr ""
+
+msgid "Are you sure you want to permanently delete this saved email?"
+msgstr ""
+
+msgid "Are you sure you want to subscribe all site users to this list?"
+msgstr ""
+
+msgid "Are you sure you want to unsubscribe from this mailing list?"
+msgstr ""
+
+msgid "Are you sure you want to unsubscribe this user from the list?"
+msgstr ""
+
+msgid "Attach a subject prefix to list messages"
+msgstr ""
+
+msgid "Attach footer to all emails"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "Change Settings"
+msgstr ""
+
+msgid "Choose a List"
+msgstr ""
+
+#, php-format
+msgid "Confirmation Email: %s"
+msgstr ""
+
+msgid "Create and manage Mailing Lists.  Send mass mailings here!"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Database tables removed."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Lists"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Double Opt-In"
+msgstr ""
+
+msgid "Double Opt-In Confirmation Email"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Lists"
+msgstr ""
+
+msgid "Edit Mailing List"
+msgstr ""
+
+msgid "Edit Saved Email"
+msgstr ""
+
+msgid "Email Address"
+msgstr ""
+
+msgid "Email From Address"
+msgstr ""
+
+msgid "Email From Name"
+msgstr ""
+
+msgid "Email approved"
+msgstr ""
+
+msgid "Email could not be approved"
+msgstr ""
+
+msgid "Email could not be saved"
+msgstr ""
+
+msgid "Email could not be sent"
+msgstr ""
+
+msgid "Email deleted"
+msgstr ""
+
+msgid "Email ready for approval"
+msgstr ""
+
+msgid "Email rejected"
+msgstr ""
+
+msgid "Email saved"
+msgstr ""
+
+msgid "Email sent"
+msgstr ""
+
+msgid "Error occurred while changing format"
+msgstr ""
+
+msgid "Error occurred while subscribing"
+msgstr ""
+
+msgid "Error occurred while unsubscribing"
+msgstr ""
+
+msgid "Error updating subscriber list"
+msgstr ""
+
+msgid "Error! Invalid key."
+msgstr ""
+
+msgid "Error! The email address you submitted is already in use."
+msgstr ""
+
+msgid "Error! The email address you submitted is malformed."
+msgstr ""
+
+msgid "Failed to set from address."
+msgstr ""
+
+msgid "Failed to set to address."
+msgstr ""
+
+msgid "Footer Message (HTML)"
+msgstr ""
+
+msgid "Footer Message (Plain Text)"
+msgstr ""
+
+msgid "Format changed"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
+msgid "HTML Format"
+msgstr ""
+
+msgid "Hide Lists"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import From Module"
+msgstr ""
+
+msgid "Import Saved Email"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Last Email"
+msgstr ""
+
+msgid "List activation changed"
+msgstr ""
+
+msgid "List activation could not be changed"
+msgstr ""
+
+msgid "List could not be saved"
+msgstr ""
+
+msgid "List deleted"
+msgstr ""
+
+msgid "List saved"
+msgstr ""
+
+msgid "Mailing Lists"
+msgstr ""
+
+msgid "Manage Mailing List Subscriptions"
+msgstr ""
+
+msgid "Manage Mailing Lists"
+msgstr ""
+
+msgid "Manage Saved Emails"
+msgstr ""
+
+msgid "Manage Subscriptions"
+msgstr ""
+
+msgid "Maximum number of emails to send at once (0 for unlimited)"
+msgstr ""
+
+msgid "Maximum number of emails to send per hour (0 for unlimited)"
+msgstr ""
+
+msgid "Message (HTML)"
+msgstr ""
+
+msgid "Message (Plain Text)"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "New Mailing List"
+msgstr ""
+
+msgid "New Saved Email"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No archived emails."
+msgstr ""
+
+msgid "No blog entries found."
+msgstr ""
+
+msgid "No emails waiting for approval."
+msgstr ""
+
+msgid "No lists available at this time."
+msgstr ""
+
+msgid "No mailing lists found."
+msgstr ""
+
+msgid "No saved emails found."
+msgstr ""
+
+msgid "No subscribers."
+msgstr ""
+
+msgid "No supported modules installed."
+msgstr ""
+
+msgid "Object incomplete."
+msgstr ""
+
+msgid "Please check your email to confirm your subscription."
+msgstr ""
+
+msgid "Please try again later."
+msgstr ""
+
+msgid "Public Archive Link"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
+
+#, php-format
+msgid "Removed from %s"
+msgstr ""
+
+msgid "Save New Email"
+msgstr ""
+
+msgid "Save New List"
+msgstr ""
+
+msgid "Saved Emails Admin"
+msgstr ""
+
+msgid "Send Email"
+msgstr ""
+
+msgid "Send Email (Do Not Click Twice)"
+msgstr ""
+
+#, php-format
+msgid "Send Email to %s"
+msgstr ""
+
+msgid "Send Email: Import From Module"
+msgstr ""
+
+msgid "Send Email: Import Saved Email"
+msgstr ""
+
+msgid "Send Emails"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show on homepage"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Subject Prefix"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Subscribe Email"
+msgstr ""
+
+msgid "Subscribed"
+msgstr ""
+
+#, php-format
+msgid "Subscribed (%s)"
+msgstr ""
+
+msgid "Subscribed to list"
+msgstr ""
+
+msgid "Subscriber Admin"
+msgstr ""
+
+#, php-format
+msgid "Subscriber Admin for %s"
+msgstr ""
+
+msgid "Subscriber list updated"
+msgstr ""
+
+msgid "Subscriber unsubscribed"
+msgstr ""
+
+msgid "Subscribers"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Text Format"
+msgstr ""
+
+msgid "Thank you! Your subscription has been activated."
+msgstr ""
+
+msgid "There was an error saving the settings."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Unsubscribe"
+msgstr ""
+
+msgid "Unsubscribe Email"
+msgstr ""
+
+msgid "Unsubscribed from list"
+msgstr ""
+
+msgid "Update Email"
+msgstr ""
+
+msgid "Update List"
+msgstr ""
+
+msgid "Update Settings"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Verifying"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View Email"
+msgstr ""
+
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Yes: Approval Required"
+msgstr ""
+
+msgid "Yes: Without Approval"
+msgstr ""
+
+msgid "You are not subscribed to any mailing lists."
+msgstr ""
+
+msgid "You must have a message body."
+msgstr ""
+
+msgid "You must have a name."
+msgstr ""
+
+msgid "You must have a subject."
+msgstr ""
+
+msgid "You must have an email from address."
+msgstr ""
+
+msgid "You must have an email from name."
+msgstr ""
+
+msgid "Your Mailing Lists"
+msgstr ""
+
+msgid "Your settings have been successfully saved."
+msgstr ""
+
+msgid "Your subscription has already been activated."
+msgstr ""
+
+msgid "Your subscription has already been terminated."
+msgstr ""
+
+msgid "Your subscription has been terminated."
+msgstr ""
