@@ -1,0 +1,45 @@
+###############################################################################
+# Mailing Lists Installation Documentation
+# $Id: INSTALL.txt,v 1.6 2005/09/12 00:36:10 blindman1344 Exp $
+#
+# Author: Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+###############################################################################
+
+IMPORTANT NOTE: This is a module for phpWebSite.  You have to install
+phpWebSite >= 0.9.3-4 first as the module will not work with earlier
+versions of phpWebSite.  If you don't have phpWebSite installed, first
+get the code here:
+
+https://sourceforge.net/project/showfiles.php?group_id=15539
+
+Then follow the install instructions found in the INSTALL.txt included
+in the docs directory of that download.
+
+
+Once this is done then you can start installing Mailing Lists:
+
+1. BACKUP YOUR DATABASE!  Don't send us hate mail if this module crashes
+   your website.  (However, we do ask that you tell us about it.)
+
+2. Download the .tar.gz from a sourceforge mirror.  (There is also a .zip
+   file for Windows users.)
+
+3. Unpack the tarball with:
+    tar -xvzf module-mailinglists-*.tar.gz
+
+4. Move the new directory into your phpWebSite mod directory.
+
+    Example: If your phpWebSite directory is /home/httpd/htdocs, you
+    would run:
+
+    mv mailinglists /home/httpd/htdocs/mod/mailinglists
+
+5. Go to your web site and install/update Mailing Lists from Boost.
+
+   You are golden.  Mailing Lists is now installed.
+
+
+If you are having trouble with these procedures please file a Support
+Request at our sourceforge.net project site:
+
+http://sourceforge.net/tracker/?atid=765094&group_id=81360&func=browse

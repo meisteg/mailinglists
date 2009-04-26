@@ -1,0 +1,3 @@
+<!-- BEGIN LISTNAME -->
+{LISTNAME}<br />
+<!-- END LISTNAME -->

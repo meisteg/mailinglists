@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------
+Mailing Lists
+Copyright (c) 2003-2005 Greg Meiste
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Developer:
+-----------------------------------------------------------------------
+
+Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+
+-----------------------------------------------------------------------
+Special Thanks:
+-----------------------------------------------------------------------
+
+George Clark
+http://www.magicgeorge.com
+
+TheCity1.com
+http://www.thecity1.com
+http://www.sports.thecity1.com
+
+Sourceforge
+http://sourceforge.net
+
+phpWebsite Development Crew
+http://phpwebsite.appstate.edu
+
+Shaun Murray
+Tester
+
+Robert Kennedy
+Tester / Doc Writer
+
+Lloyd Dalton
+Tester
+
+Andrew Zahra
+Tester

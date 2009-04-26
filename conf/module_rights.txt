@@ -1,0 +1,8 @@
+create_lists::Create Lists
+edit_lists::Edit Lists
+delete_lists::Delete Lists
+change_visibility::Change List Visibility
+send_emails::Send Emails
+change_settings::Change Settings
+saved_emails::Saved Emails Admin
+subscriber_admin::Subscriber Admin
