@@ -19,8 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @version $Id: index.php,v 1.27 2008/01/02 21:59:23 blindman1344 Exp $
- * @author  Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+ * @package Mailing_Lists
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 if (!defined('PHPWS_SOURCE_DIR'))

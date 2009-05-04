@@ -1,10 +1,11 @@
 ############################################################################################
 # ChangeLog for Mailing Lists
-# $Id: changelog.txt,v 1.57 2008/09/27 00:43:24 blindman1344 Exp $
 #
-# Author: Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+# Author: Greg Meiste <greg.meiste+github@gmail.com>
 ############################################################################################
 
+
+    - GH #5: Replace references to SourceForge with GitHub.
 
 *mailinglists-1.2.1 (26 Sep 2008)
 

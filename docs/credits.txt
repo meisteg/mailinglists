@@ -1,13 +1,13 @@
 -----------------------------------------------------------------------
 Mailing Lists
-Copyright (c) 2003-2008 Greg Meiste
+Copyright (c) 2003-2009 Greg Meiste
 -----------------------------------------------------------------------
 
 -----------------------------------------------------------------------
 Developer:
 -----------------------------------------------------------------------
 
-Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+Greg Meiste <greg.meiste+github@gmail.com>
 
 -----------------------------------------------------------------------
 Special Thanks:
@@ -16,4 +16,3 @@ Special Thanks:
 phpWebsite Development Crew (http://phpwebsite.appstate.edu)
 Tommy de Jesus
 Verdon Vaillancourt
-Sourceforge (http://sourceforge.net)

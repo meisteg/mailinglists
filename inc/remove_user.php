@@ -19,8 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @version $Id: remove_user.php,v 1.1 2008/06/11 02:53:33 blindman1344 Exp $
- * @author  Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+ * @package Mailing_Lists
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 function mailinglists_remove_user($user_id)

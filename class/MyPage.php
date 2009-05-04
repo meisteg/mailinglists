@@ -19,8 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @version $Id: MyPage.php,v 1.4 2008/08/23 19:01:13 blindman1344 Exp $
- * @author  Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+ * @package Mailing_Lists
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 PHPWS_Core::initModClass('mailinglists', 'List.php');

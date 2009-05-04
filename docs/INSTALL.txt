@@ -1,8 +1,7 @@
 ###############################################################################
 # Mailing Lists Installation Documentation
-# $Id: INSTALL.txt,v 1.8 2008/06/11 02:53:32 blindman1344 Exp $
 #
-# Author: Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+# Author: Greg Meiste <greg.meiste+github@gmail.com>
 ###############################################################################
 
 ===== IMPORTANT =====
@@ -23,7 +22,7 @@ installing Mailing Lists.
 1. BACKUP YOUR DATABASE.  Never install this or any other module without
    doing this.
 
-2. Download the .tar.gz or .zip file from sourceforge and unpack it.
+2. Download the .tar.gz or .zip file and unpack it.
 
 3. Move the new directory into your phpwebsite mod directory.
 
@@ -31,13 +30,11 @@ installing Mailing Lists.
 
     mv mailinglists /home/httpd/htdocs/mod/mailinglists
 
-4. Go to your phpWS website and install or upgrade "Mailing Lists" from the
-   Boost module.
+4. In your site's config.php file, set the ALLOW_TABLE_LOCKS define to true.
+   Table locks are used to protect this module's email queue.
 
-5. (Optional, but recommended) In your site's config.php file, set the
-   ALLOW_TABLE_LOCKS define to true.  Table locks are used to protect this
-   module's email queue.  Obviously, don't set to true if your database user
-   does not have permissions to lock tables.
+5. Go to your phpWS website and install or upgrade "Mailing Lists" from the
+   Boost module.
 
 6. Log out and log back in to your site to reset your environment before
    using the module.
@@ -49,6 +46,6 @@ installing Mailing Lists.
 ===== PROBLEMS? =====
 
 If you are having trouble with these procedures please file a Support Request
-at our sourceforge.net project site:
+at our project site:
 
-http://sourceforge.net/tracker/?atid=765094&group_id=81360&func=browse
+http://github.com/meisteg/mailinglists/issues

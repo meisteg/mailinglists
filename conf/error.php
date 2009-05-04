@@ -19,8 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @version $Id: error.php,v 1.2 2008/09/17 02:43:03 blindman1344 Exp $
- * @author  Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+ * @package Mailing_Lists
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 $errors[MAILINGLISTS_OBJ_INCOMPLETE]       = dgettext('mailinglists', 'Object incomplete.');

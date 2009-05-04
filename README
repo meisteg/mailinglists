@@ -1,5 +1,5 @@
 Mailing Lists - phpWebSite Module
-http://sourceforge.net/projects/phpwebsite-comm
+http://github.com/meisteg/mailinglists
 
 Mailing Lists was written to allow admins to send out mass messages to
 visitors who have subscribed to various lists.  This module is ideal
@@ -9,7 +9,7 @@ for community news web sites using phpWebSite.
 BUGS AND FEATURE REQUESTS
 -------------------------
 If you have any bugs and/or feature requests, file them at:
-http://sourceforge.net/tracker/?atid=765094&group_id=81360&func=browse
+http://github.com/meisteg/mailinglists/issues
 
 Please be sure to search any existing posts to avoid duplicates.
 

@@ -19,8 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @version $Id: boost.php,v 1.4 2008/09/17 02:59:25 blindman1344 Exp $
- * @author  Greg Meiste <blindman1344 [at] users dot sourceforge dot net>
+ * @package Mailing_Lists
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 $proper_name  = 'Mailing Lists';
@@ -30,7 +30,7 @@ $unregister   = FALSE;
 $import_sql   = TRUE;
 $image_dir    = FALSE;
 $file_dir     = FALSE;
-$version_http = 'http://www.meiste.com/phpws_updates/mailinglists.xml';
+$version_http = 'http://meisteg.github.com/mailinglists/check.xml';
 $about        = TRUE;
 $priority     = 50;
 $dependency   = TRUE;
