@@ -340,8 +340,14 @@ class MailingLists_List
 
         if ($format && Current_User::allow('mailinglists', 'subscriber_admin'))
         {
+            if ($retval == 0)
+            {
+                $retval = dgettext('mailinglists', 'None');
+            }
+
             $vars['list_id'] = $this->getId();
             $vars['action'] = 'subscriberAdmin';
+
             return PHPWS_Text::secureLink($retval, 'mailinglists', $vars);
         }
 

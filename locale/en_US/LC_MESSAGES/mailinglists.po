@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-16 21:39-0500\n"
+"POT-Creation-Date: 2009-05-03 22:15-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,6 +306,9 @@ msgid "No subscribers."
 msgstr ""
 
 msgid "No supported modules installed."
+msgstr ""
+
+msgid "None"
 msgstr ""
 
 msgid "Object incomplete."

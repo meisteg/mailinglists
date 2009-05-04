@@ -5,6 +5,7 @@
 ############################################################################################
 
 
+    - GH #6: Subscriber count does not appear when count is 0.
     - GH #2: Check that ALLOW_TABLE_LOCKS is set to true before install.
     - GH #5: Replace references to SourceForge with GitHub.
 
