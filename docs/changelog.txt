@@ -5,6 +5,7 @@
 ############################################################################################
 
 
+    - GH #2: Check that ALLOW_TABLE_LOCKS is set to true before install.
     - GH #5: Replace references to SourceForge with GitHub.
 
 *mailinglists-1.2.1 (26 Sep 2008)
